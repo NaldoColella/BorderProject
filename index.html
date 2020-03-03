@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Border Generator</title>
+  <script src="script.js" async></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <label for="topLeft">Top Left</label>
+  <input id="topLeft" value="0" />
+
+  <label for="topRight">Top Right</label>
+  <input id="topRight" value="0" />
+
+  <label for="bottomLeft">bottom Left</label>
+  <input id="bottomLeft" value="0" />
+
+  <label for="bottomRight">bottom Right</label>
+  <input id="bottomRight" value="0" />
+
+  <textarea id="result" name="result" readonly></textarea>
+
+  <input type="checkbox" id="webkit" name="types" value="webkit" />
+  <label for="webkit"> -webkit- </label>
+  <input type="checkbox" id="moz" name="types" value="moz">
+  <label for="moz"> -moz- </label>
+
+  <div id="border-render">
+
+  </div>
+</body>
+
+</html>

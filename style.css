@@ -1,0 +1,11 @@
+#border-render{
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+  transition: 0.3s;
+}
+#result{
+  height: 200px;
+  width: 300px;
+  resize: none;
+}
